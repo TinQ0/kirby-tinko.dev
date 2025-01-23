@@ -103,6 +103,7 @@ return array(
     'Kirby\\Cms\\Item' => $baseDir . '/kirby/src/Cms/Item.php',
     'Kirby\\Cms\\Items' => $baseDir . '/kirby/src/Cms/Items.php',
     'Kirby\\Cms\\Language' => $baseDir . '/kirby/src/Cms/Language.php',
+    'Kirby\\Cms\\LanguagePermissions' => $baseDir . '/kirby/src/Cms/LanguagePermissions.php',
     'Kirby\\Cms\\LanguageRouter' => $baseDir . '/kirby/src/Cms/LanguageRouter.php',
     'Kirby\\Cms\\LanguageRoutes' => $baseDir . '/kirby/src/Cms/LanguageRoutes.php',
     'Kirby\\Cms\\LanguageRules' => $baseDir . '/kirby/src/Cms/LanguageRules.php',

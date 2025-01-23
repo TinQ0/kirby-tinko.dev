@@ -232,6 +232,7 @@ class ComposerStaticInit749a661738bcd5b9428c88a1da847bc7
         'Kirby\\Cms\\Item' => __DIR__ . '/../..' . '/kirby/src/Cms/Item.php',
         'Kirby\\Cms\\Items' => __DIR__ . '/../..' . '/kirby/src/Cms/Items.php',
         'Kirby\\Cms\\Language' => __DIR__ . '/../..' . '/kirby/src/Cms/Language.php',
+        'Kirby\\Cms\\LanguagePermissions' => __DIR__ . '/../..' . '/kirby/src/Cms/LanguagePermissions.php',
         'Kirby\\Cms\\LanguageRouter' => __DIR__ . '/../..' . '/kirby/src/Cms/LanguageRouter.php',
         'Kirby\\Cms\\LanguageRoutes' => __DIR__ . '/../..' . '/kirby/src/Cms/LanguageRoutes.php',
         'Kirby\\Cms\\LanguageRules' => __DIR__ . '/../..' . '/kirby/src/Cms/LanguageRules.php',

@@ -25,7 +25,6 @@
     "getkirby/cms": "5.0.0-beta.1",
     "moritzebeling/kirby-favicon": "^1.0",
     "sylvainjule/footnotes": "^2.0",
-    "fabianmichael/kirby-markdown-field": "^2.2",
     "thathoff/kirby-git-content": "^5.2"
   },
   "config": {
