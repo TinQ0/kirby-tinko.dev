@@ -11,15 +11,16 @@ I hope starting from the plainkit will finally instill some good HTML and CSS pr
 ## Plugins I want to implement
 - [ ] OG Image
 - [ ] Kirby Photo stats
-- [ ] Kirby Devkit
-- [ ] Some Content git sync plugin
-  - [ ] With git LFS or something else to handle the images
+- [x] Kirby Devkit
+- [x] Some Content git sync plugin
+  - [x] With git LFS or something else to handle the images
 - [ ] Dark visitors
 - [ ] Indieconnector
 - [ ] Komments 
 - [ ] Matomo
-- [ ] HTMLHead, or make sure my <head> content follows best practices
-- [ ] Kirby Favicon
+- [x] HTMLHead, or make sure my <head> content follows best practices
+- [x] Kirby Favicon
+  - [ ] might revisit
 - [ ] Some responsive image implementation
 - [ ] Feed and Sitemap
 - [ ] Locator, but only because it looks cool
