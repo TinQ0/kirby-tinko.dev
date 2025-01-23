@@ -4,3 +4,4 @@
 [submodule "content"]
 	path = content
 	url = https://github.com/TinQ0/kirby-tinko.dev-content.git
+	branch = main
