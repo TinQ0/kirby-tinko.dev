@@ -1,0 +1,24 @@
+title: Notes
+
+sections:
+  fields:
+    type: fields
+    fields:
+      introtext:
+        type: textarea
+        size: small
+  drafts:
+    type: pages
+    status: draft
+    template:
+      - note
+      - md-note
+    layout: cards
+  published:
+    type: pages
+    status: published
+    template:
+      - note
+      - md-note
+    layout: cards
+

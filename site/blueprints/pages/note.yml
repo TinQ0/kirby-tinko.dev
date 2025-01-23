@@ -1,0 +1,48 @@
+title: Note
+
+columns:
+  main:
+    width: 2/3
+    fields:
+      text:
+        type: textarea
+        autofocus: true
+        size: huge
+        buttons:
+          - headlines
+          - "|"
+          - italic
+          - bold
+          - highlight
+          - "|"
+          - link
+          - email
+          - file
+          - "|"
+          - code
+          - quote
+          - footnote
+          - "|"
+          - ul
+          - ol
+          - "|"
+
+
+
+
+  sidebar:
+    width: 1/3
+    sections:
+      author:
+        type: fields
+        fields:
+          author:
+            type: users
+            default:
+              mail@tinko.dev
+            required: true
+            multiple: false
+
+      files:
+        type: files
+
