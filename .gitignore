@@ -1,9 +1,8 @@
-# Content Folder
-# (tracked in separate repository)
+# Vendor Folder
 # ------------
 
-/content/*
-
+/vendor/*
+!/vendor/index.html
 
 # System files
 # ------------
