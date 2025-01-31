@@ -27,7 +27,7 @@
     </nav>
   </header>
 
-  <h1 id="demo" class="line-1 anim-typewriter"></h1>
+  <h1 id="demo" class="line-1 anim-typewriter" contenteditable="true"></h1>
 
   <script>
     let i = 0;

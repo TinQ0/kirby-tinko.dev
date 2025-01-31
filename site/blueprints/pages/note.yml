@@ -1,34 +1,38 @@
 title: Note
 
+num: '{{ page.created.toDate("Ymd") }}'
+
 columns:
   main:
     width: 2/3
     fields:
       text:
-        type: textarea
+        type: markdown
         autofocus: true
         size: huge
         buttons:
-          - headlines
-          - "|"
-          - italic
-          - bold
-          - highlight
-          - "|"
-          - link
-          - email
-          - file
-          - "|"
-          - code
-          - quote
-          - footnote
-          - "|"
-          - ul
-          - ol
-          - "|"
-
-
-
+          headlines:
+            - h1
+            - h2
+            - h3
+          bold:
+            - **
+          link:
+            - kirbytext
+            - blank: true
+            - pagelink: kirbytext
+          pagelink: kirbytext
+          italic: *
+          strikethrough:
+          code:
+          ul: "-"
+          ol:
+          blockquote:
+          hr: ***
+          highlight:
+          file:
+          footnote:
+          invisibles:
 
   sidebar:
     width: 1/3
@@ -42,6 +46,12 @@ columns:
               mail@tinko.dev
             required: true
             multiple: false
+          created:
+            type: date
+            time: true
+            default: now
+            required: true
+            disabled: true
 
       files:
         type: files

@@ -12,13 +12,11 @@ sections:
     status: draft
     template:
       - note
-      - md-note
     layout: cards
   published:
     type: pages
     status: published
     template:
       - note
-      - md-note
     layout: cards
 
