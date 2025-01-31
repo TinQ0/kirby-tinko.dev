@@ -1,7 +1,3 @@
-[submodule "kirby"]
-	path = kirby
-	url = https://github.com/getkirby/kirby.git
-	branch = main
 [submodule "content"]
 	path = content
 	url = git@github.com:TinQ0/kirby-tinko.dev-content.git

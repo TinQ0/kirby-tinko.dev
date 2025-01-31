@@ -1,8 +1,11 @@
-# Vendor Folder
+#  Vendor and Kirby Folders
 # ------------
 
 /vendor/*
 !/vendor/index.html
+
+/kirby/*
+!/kirby/index.html
 
 # System files
 # ------------
