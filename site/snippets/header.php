@@ -11,7 +11,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title><?= $site->title() ?>/<?= $page->title() ?></title>
     <base href="<?= $page->url() ?>">
-    <?= css("https://cdn.simplecss.org/simple.min.css")?>
+    <?= css("assets/css/style.css")?>
     <?php snippet('favicon') ?>
     <?php snippet('webmention-endpoint'); ?>
     <meta property="og:title" content="<?= $page->title(); ?>">
