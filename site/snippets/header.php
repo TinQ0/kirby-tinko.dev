@@ -13,6 +13,7 @@
     <base href="<?= $page->url() ?>">
     <?= css("https://cdn.simplecss.org/simple.min.css")?>
     <?php snippet('favicon') ?>
+    <?php snippet('webmention-endpoint'); ?>
   </head>
 
 <body>

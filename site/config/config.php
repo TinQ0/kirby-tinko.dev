@@ -7,14 +7,19 @@ return [
 
     'sylvainjule.footnotes.wrapper'  => 'aside',
 
-    'mauricerenck.indieConnector.sqlitePath' => 'content/.sqlite/',
+    'mauricerenck.indieConnector.sqlitePath' => 'databases/.sqlite/',
+    'mauricerenck.indieConnector.queue.enabled' => true,
+    'mauricerenck.indieConnector.secret' => 'medkib-3vaccu-Hizpar',
     'mauricerenck.indieConnector.stats.enabled' => true,
+    'mauricerenck.indieConnector.send.enabled' => true,
+    'mauricerenck.indieConnector.receive.enabled' => true,
+    'mauricerenck.indieConnector.send.markDeleted' => true,
     'mauricerenck.indieConnector.mastodon.enabled' => true,
     'mauricerenck.indieConnector.mastodon.bearer' => 'RZeiCGJzN4EHouA3PhyNYXX21_9A7cOnjxCSqFLhTVc',
     'mauricerenck.indieConnector.mastodon.instance-url' => 'https://social.treehouse.systems',
     'mauricerenck.indieConnector.post.prefereLanguage' => 'en',
     'mauricerenck.indieConnector.post.textfields' => ['title'],
-    'mauricerenck.indieConnector.post.imagefield' => 'postImage',
+
 
     'routes' => [
         [

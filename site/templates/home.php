@@ -13,6 +13,7 @@
   <base href="<?= $page->url() ?>">
   <?= css("assets/css/oldstylesheet.css")?>
   <?php snippet('favicon') ?>
+  <?php snippet('webmention-endpoint'); ?>
 </head>
 
 <body onload="typeWriter();">

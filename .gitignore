@@ -7,6 +7,9 @@
 /kirby/*
 !/kirby/index.html
 
+/databases/*
+!/databases/index.html
+
 # System files
 # ------------
 
