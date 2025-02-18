@@ -25,7 +25,9 @@
     "getkirby/cms": "^4.0",
     "moritzebeling/kirby-favicon": "^1.0",
     "sylvainjule/footnotes": "^2.0",
-    "thathoff/kirby-git-content": "^5.2"
+    "thathoff/kirby-git-content": "^5.2",
+    "mauricerenck/indieconnector": "^2.5",
+    "bnomei/kirby3-feed": "^5.0"
   },
   "config": {
     "allow-plugins": {

@@ -6,6 +6,8 @@ columns:
   main:
     width: 2/3
     fields:
+      indieConnector:
+        extends: indieconnector/fields/webmentions
       text:
         type: markdown
         autofocus: true
