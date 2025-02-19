@@ -8,7 +8,7 @@ return [
     'sylvainjule.footnotes.wrapper'  => 'aside',
 
     'mauricerenck.indieConnector.sqlitePath' => 'databases/.sqlite/',
-    'mauricerenck.indieConnector.queue.enabled' => true,
+    'mauricerenck.indieConnector.queue.enabled' => false,
     'mauricerenck.indieConnector.secret' => 'medkib-3vaccu-Hizpar',
     'mauricerenck.indieConnector.stats.enabled' => true,
     'mauricerenck.indieConnector.send.enabled' => true,
