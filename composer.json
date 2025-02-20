@@ -25,7 +25,8 @@
     "getkirby/cms": "^4.0",
     "moritzebeling/kirby-favicon": "^1.0",
     "sylvainjule/footnotes": "^2.0",
-    "thathoff/kirby-git-content": "^5.2"
+    "thathoff/kirby-git-content": "^5.2",
+    "sylvainjule/matomo": "^2.0"
   },
   "config": {
     "allow-plugins": {

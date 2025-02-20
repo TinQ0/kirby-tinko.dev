@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1f2e893a6ea3132701db2581e4b1e3d3",
+    "content-hash": "7381a1b856a160424fdcc479072a38c5",
     "packages": [
         {
             "name": "christian-riesen/base32",
@@ -324,16 +324,16 @@
         },
         {
             "name": "getkirby/cms",
-            "version": "4.6.0",
+            "version": "4.6.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/getkirby/kirby.git",
-                "reference": "994556ca78eab3c11415702870b6388e8472addc"
+                "reference": "e29f216630ee1c2ab7e3f8f1bb3d335541121587"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/getkirby/kirby/zipball/994556ca78eab3c11415702870b6388e8472addc",
-                "reference": "994556ca78eab3c11415702870b6388e8472addc",
+                "url": "https://api.github.com/repos/getkirby/kirby/zipball/e29f216630ee1c2ab7e3f8f1bb3d335541121587",
+                "reference": "e29f216630ee1c2ab7e3f8f1bb3d335541121587",
                 "shasum": ""
             },
             "require": {
@@ -423,7 +423,7 @@
                     "type": "custom"
                 }
             ],
-            "time": "2025-01-30T11:02:53+00:00"
+            "time": "2025-02-06T15:39:59+00:00"
         },
         {
             "name": "getkirby/composer-installer",
@@ -878,6 +878,51 @@
                 "source": "https://github.com/sylvainjule/kirby-footnotes/tree/2.0.0"
             },
             "time": "2024-05-19T11:23:40+00:00"
+        },
+        {
+            "name": "sylvainjule/matomo",
+            "version": "2.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sylvainjule/kirby-matomo.git",
+                "reference": "ce5da6b1427da225efe3ebc05c3a1a4d6b7781c2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sylvainjule/kirby-matomo/zipball/ce5da6b1427da225efe3ebc05c3a1a4d6b7781c2",
+                "reference": "ce5da6b1427da225efe3ebc05c3a1a4d6b7781c2",
+                "shasum": ""
+            },
+            "require": {
+                "getkirby/composer-installer": "^1.1"
+            },
+            "type": "kirby-plugin",
+            "extra": {
+                "installer-name": "matomo"
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Sylvain Julé",
+                    "email": "contact@sylvain-jule.fr"
+                },
+                {
+                    "name": "Sören Engels"
+                },
+                {
+                    "name": "Philipp Trenz",
+                    "email": "mail@philipptrenz.de"
+                }
+            ],
+            "description": "Matomo helpers, panel area and sections for Kirby",
+            "support": {
+                "issues": "https://github.com/sylvainjule/kirby-matomo/issues",
+                "source": "https://github.com/sylvainjule/kirby-matomo/tree/2.0.1"
+            },
+            "time": "2024-05-04T17:36:22+00:00"
         },
         {
             "name": "symfony/deprecation-contracts",

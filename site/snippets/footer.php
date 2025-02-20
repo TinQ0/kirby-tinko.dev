@@ -8,4 +8,5 @@
   </footer>
 
 </body>
+<?php echo snippet('matomo') ?>
 </html>
