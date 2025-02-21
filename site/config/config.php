@@ -15,7 +15,7 @@ return [
     'mauricerenck.indieConnector.receive.enabled' => true,
     'mauricerenck.indieConnector.send.markDeleted' => true,
     'mauricerenck.indieConnector.mastodon.enabled' => true,
-    'mauricerenck.indieConnector.mastodon.bearer' => 'RZeiCGJzN4EHouA3PhyNYXX21_9A7cOnjxCSqFLhTVc',
+    //'mauricerenck.indieConnector.mastodon.bearer' => '',
     'mauricerenck.indieConnector.mastodon.instance-url' => 'https://social.treehouse.systems',
     'mauricerenck.indieConnector.post.prefereLanguage' => 'en',
     'mauricerenck.indieConnector.post.textfields' => ['title'],
