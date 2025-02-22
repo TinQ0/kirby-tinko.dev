@@ -58,3 +58,26 @@ columns:
       files:
         type: files
 
+      info:
+        type: fields
+        fields:
+          counter:
+            label: Page view count
+            type: viewcount
+          lastvisited:
+            label: Page last visited
+            type: lastvisited
+            format: 'DD-MM-YYYY'
+
+      betterstats:
+        type: stats
+        reports:
+          - label: View Count of Page
+            value: "{{ page.pageviewcount }}"
+          - label: View Count with Children
+            value: "{{ page.children.pageviewcount(page.pageviewcount) }}"
+
+
+
+
+

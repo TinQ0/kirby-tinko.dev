@@ -1,13 +1,12 @@
 <?php
 
 return [
-    'debug' => true,
     'languages' => true,
     'date.handler'  => 'intl',
 
     'sylvainjule.footnotes.wrapper'  => 'aside',
 
-    'mauricerenck.indieConnector.sqlitePath' => 'databases/.sqlite/',
+    'mauricerenck.indieConnector.sqlitePath' => 'logs/',
     'mauricerenck.indieConnector.queue.enabled' => false,
     'mauricerenck.indieConnector.secret' => 'medkib-3vaccu-Hizpar',
     'mauricerenck.indieConnector.stats.enabled' => true,
@@ -15,7 +14,7 @@ return [
     'mauricerenck.indieConnector.receive.enabled' => true,
     'mauricerenck.indieConnector.send.markDeleted' => true,
     'mauricerenck.indieConnector.mastodon.enabled' => true,
-    //'mauricerenck.indieConnector.mastodon.bearer' => '',
+    'mauricerenck.indieConnector.mastodon.bearer' => '123456789',
     'mauricerenck.indieConnector.mastodon.instance-url' => 'https://social.treehouse.systems',
     'mauricerenck.indieConnector.post.prefereLanguage' => 'en',
     'mauricerenck.indieConnector.post.textfields' => ['title'],

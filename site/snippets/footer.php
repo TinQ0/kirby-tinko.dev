@@ -6,6 +6,6 @@
       Hosted on <a href="https://uberspace.de/">Asteroids</a>
     </p>
   </footer>
-
+  <?php echo $page->counterCss(); ?>
 </body>
 </html>
