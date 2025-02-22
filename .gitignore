@@ -10,7 +10,7 @@
 /databases/*
 !/databases/index.html
 
-/config/env.php
+site/config/env.php
 
 # System files
 # ------------
