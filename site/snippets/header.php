@@ -14,6 +14,11 @@
     <?= css("https://cdn.simplecss.org/simple.min.css")?>
     <?php snippet('favicon') ?>
     <?php snippet('webmention-endpoint'); ?>
+    <meta property="og:title" content="<?= $page->title(); ?>">
+    <meta property="og:url" content="<?= $page->url(); ?>">
+    <meta property="og:image" content="<?= $page->url(); ?>/og-image">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="628">
   </head>
 
 <body>

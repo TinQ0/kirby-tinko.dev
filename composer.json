@@ -28,7 +28,8 @@
     "thathoff/kirby-git-content": "^5.2",
     "mauricerenck/indieconnector": "^2.5",
     "bnomei/kirby3-feed": "^5.0",
-    "bnomei/kirby3-pageviewcounter": "^5.0"
+    "bnomei/kirby3-pageviewcounter": "^5.0",
+    "mauricerenck/ogimage": "^1.1"
   },
   "config": {
     "allow-plugins": {

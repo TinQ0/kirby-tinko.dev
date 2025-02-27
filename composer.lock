@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "54627158bdd6f1da1aa9150b068c94b8",
+    "content-hash": "754698c30b5742cccfb5438740ba820f",
     "packages": [
         {
             "name": "bnomei/kirby3-feed",
@@ -1001,6 +1001,51 @@
                 "source": "https://github.com/mauricerenck/indieConnector"
             },
             "time": "2025-01-24T14:26:13+00:00"
+        },
+        {
+            "name": "mauricerenck/ogimage",
+            "version": "1.1.8",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mauricerenck/og-image.git",
+                "reference": "e6d856dc33d2a010273955989d7748945a178f1d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mauricerenck/og-image/zipball/e6d856dc33d2a010273955989d7748945a178f1d",
+                "reference": "e6d856dc33d2a010273955989d7748945a178f1d",
+                "shasum": ""
+            },
+            "require": {
+                "getkirby/composer-installer": "^1.2",
+                "php": ">=8.2.0"
+            },
+            "type": "kirby-plugin",
+            "autoload": {
+                "psr-4": {
+                    "mauricerenck\\OgImage\\": "lib/"
+                },
+                "classmap": [
+                    "lib"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Maurice Renck",
+                    "email": "hello@maurice-renck.de"
+                }
+            ],
+            "description": "Creates an Open Graph Image for each page",
+            "homepage": "https://github.com/mauricerenck/og-image",
+            "support": {
+                "issues": "https://github.com/mauricerenck/og-image/issues",
+                "source": "https://github.com/mauricerenck/og-image/tree/v1.1.8"
+            },
+            "time": "2024-12-30T15:14:27+00:00"
         },
         {
             "name": "mf2/mf2",

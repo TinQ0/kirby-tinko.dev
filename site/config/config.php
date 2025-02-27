@@ -6,18 +6,37 @@ return [
 
     'sylvainjule.footnotes.wrapper'  => 'aside',
 
-    'mauricerenck.indieConnector.sqlitePath' => 'logs/',
+    'mauricerenck.indieConnector.sqlitePath' => 'content/.databases/',
     'mauricerenck.indieConnector.queue.enabled' => false,
-    'mauricerenck.indieConnector.secret' => 'medkib-3vaccu-Hizpar',
     'mauricerenck.indieConnector.stats.enabled' => true,
     'mauricerenck.indieConnector.send.enabled' => true,
-    'mauricerenck.indieConnector.receive.enabled' => true,
     'mauricerenck.indieConnector.send.markDeleted' => true,
+    'mauricerenck.indieConnector.receive.enabled' => true,
     'mauricerenck.indieConnector.mastodon.enabled' => true,
-    'mauricerenck.indieConnector.mastodon.bearer' => '123456789',
     'mauricerenck.indieConnector.mastodon.instance-url' => 'https://social.treehouse.systems',
     'mauricerenck.indieConnector.post.prefereLanguage' => 'en',
     'mauricerenck.indieConnector.post.textfields' => ['title'],
+
+    "mauricerenck.ogimage.width" => 1200,
+    "mauricerenck.ogimage.height" => 628,
+    "mauricerenck.ogimage.field" => 'ogImage',
+    "mauricerenck.ogimage.image.template" => 'assets/ogImageTemplate.png',
+    "mauricerenck.ogimage.font.path" => 'assets/fonts/DepartureMono-Regular.otf',
+    "mauricerenck.ogimage.font.color" => [25, 25, 25],
+    "mauricerenck.ogimage.font.size" => 75,
+    "mauricerenck.ogimage.font.lineheight" => 1.2 ,
+    "mauricerenck.ogimage.heroImage.field" => 'hero',
+    "mauricerenck.ogimage.heroImage.cropsize" => [460, 460],
+    "mauricerenck.ogimage.heroImage.position" => [740, 0],
+    "mauricerenck.ogimage.heroImage.fallbackColor" => [251, 249, 232],
+    "mauricerenck.ogimage.title.field" => 'title',
+    "mauricerenck.ogimage.title.position" => [25, 25],
+    "mauricerenck.ogimage.title.charactersPerLine" => 11,
+
+
+
+
+
 
 
     'routes' => [
