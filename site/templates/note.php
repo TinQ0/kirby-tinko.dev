@@ -6,6 +6,8 @@
   <article>
     <?= $page->text()->footnotes() ?>
   </article>
+  <?php snippet('komments/kommentform'); ?>
+  <?php snippet('komments/webmention-splitted'); ?>
 </main>
 
 <?php snippet('footer') ?>

@@ -19,6 +19,7 @@
     <meta property="og:image" content="<?= $page->url(); ?>/og-image">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="628">
+    <?php echo css(['/media/plugins/mauricerenck/komments/komments.css']); ?>
   </head>
 
 <body>

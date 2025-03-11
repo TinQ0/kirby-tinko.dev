@@ -6,6 +6,8 @@ return [
 
     'sylvainjule.footnotes.wrapper'  => 'aside',
 
+    'bnomei.pageviewcounter.ignore-panel-users' => false,
+
     'mauricerenck.indieConnector.sqlitePath' => 'content/.databases/',
     'mauricerenck.indieConnector.queue.enabled' => false,
     'mauricerenck.indieConnector.stats.enabled' => true,
@@ -17,21 +19,23 @@ return [
     'mauricerenck.indieConnector.post.prefereLanguage' => 'en',
     'mauricerenck.indieConnector.post.textfields' => ['title'],
 
+    'mauricerenck.komments.moderation.autoPublish' => ['mail@tinko.dev'],
+
     "mauricerenck.ogimage.width" => 1200,
     "mauricerenck.ogimage.height" => 628,
     "mauricerenck.ogimage.field" => 'ogImage',
     "mauricerenck.ogimage.image.template" => 'assets/ogImageTemplate.png',
     "mauricerenck.ogimage.font.path" => 'assets/fonts/DepartureMono-Regular.otf',
     "mauricerenck.ogimage.font.color" => [25, 25, 25],
-    "mauricerenck.ogimage.font.size" => 75,
-    "mauricerenck.ogimage.font.lineheight" => 1.2 ,
+    "mauricerenck.ogimage.font.size" => 55,
+    "mauricerenck.ogimage.font.lineheight" => 1.4 ,
     "mauricerenck.ogimage.heroImage.field" => 'hero',
     "mauricerenck.ogimage.heroImage.cropsize" => [460, 460],
     "mauricerenck.ogimage.heroImage.position" => [740, 0],
     "mauricerenck.ogimage.heroImage.fallbackColor" => [251, 249, 232],
     "mauricerenck.ogimage.title.field" => 'title',
-    "mauricerenck.ogimage.title.position" => [25, 25],
-    "mauricerenck.ogimage.title.charactersPerLine" => 11,
+    "mauricerenck.ogimage.title.position" => [50, 88],
+    "mauricerenck.ogimage.title.charactersPerLine" => 14,
 
 
 

@@ -77,6 +77,15 @@ columns:
           - label: View Count with Children
             value: "{{ page.children.pageviewcount(page.pageviewcount) }}"
 
+      Komments:
+        type: stats
+        reports:
+          - label: Pending Comments
+            value: "{{ site.numberOfPendingComments }}"
+            info: "Possible spam: {{ site.numberOfSpamComments }}"
+            link: https://getkirby.com/shop
+            theme: negative
+
 
 
 

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "754698c30b5742cccfb5438740ba820f",
+    "content-hash": "04022c6431b15f1b92877ad8f590d532",
     "packages": [
         {
             "name": "bnomei/kirby3-feed",
@@ -702,16 +702,16 @@
         },
         {
             "name": "jaybizzle/crawler-detect",
-            "version": "v1.3.2",
+            "version": "v1.3.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/JayBizzle/Crawler-Detect.git",
-                "reference": "b15237098211b502b9629bbf6f6884a3279420f2"
+                "reference": "d14a1c24553d7024a577ebc2bd8667de1033be68"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/JayBizzle/Crawler-Detect/zipball/b15237098211b502b9629bbf6f6884a3279420f2",
-                "reference": "b15237098211b502b9629bbf6f6884a3279420f2",
+                "url": "https://api.github.com/repos/JayBizzle/Crawler-Detect/zipball/d14a1c24553d7024a577ebc2bd8667de1033be68",
+                "reference": "d14a1c24553d7024a577ebc2bd8667de1033be68",
                 "shasum": ""
             },
             "require": {
@@ -748,9 +748,9 @@
             ],
             "support": {
                 "issues": "https://github.com/JayBizzle/Crawler-Detect/issues",
-                "source": "https://github.com/JayBizzle/Crawler-Detect/tree/v1.3.2"
+                "source": "https://github.com/JayBizzle/Crawler-Detect/tree/v1.3.3"
             },
-            "time": "2025-02-06T18:54:20+00:00"
+            "time": "2025-02-26T18:40:58+00:00"
         },
         {
             "name": "laminas/laminas-escaper",
@@ -877,16 +877,16 @@
         },
         {
             "name": "matomo/device-detector",
-            "version": "6.4.3",
+            "version": "6.4.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/matomo-org/device-detector.git",
-                "reference": "aa4586d495a7f59029d46d976f160b13eb769bb0"
+                "reference": "270bbc41f80994e80805ac377b67324eba53c412"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/matomo-org/device-detector/zipball/aa4586d495a7f59029d46d976f160b13eb769bb0",
-                "reference": "aa4586d495a7f59029d46d976f160b13eb769bb0",
+                "url": "https://api.github.com/repos/matomo-org/device-detector/zipball/270bbc41f80994e80805ac377b67324eba53c412",
+                "reference": "270bbc41f80994e80805ac377b67324eba53c412",
                 "shasum": ""
             },
             "require": {
@@ -903,6 +903,7 @@
                 "phpunit/phpunit": "^8.5.8",
                 "psr/cache": "^1.0.1",
                 "psr/simple-cache": "^1.0.1",
+                "slevomat/coding-standard": "<8.16.0",
                 "symfony/yaml": "^5.1.7"
             },
             "suggest": {
@@ -942,20 +943,20 @@
                 "source": "https://github.com/matomo-org/matomo",
                 "wiki": "https://dev.matomo.org/"
             },
-            "time": "2025-01-17T09:59:39+00:00"
+            "time": "2025-02-26T17:37:32+00:00"
         },
         {
             "name": "mauricerenck/indieconnector",
-            "version": "2.5.0",
+            "version": "2.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mauricerenck/indieConnector.git",
-                "reference": "25767cba66987b0a8aa188e65ed940b4f4cae98e"
+                "reference": "6903b203c117344a71fa2edf9d2a36df162d004c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mauricerenck/indieConnector/zipball/25767cba66987b0a8aa188e65ed940b4f4cae98e",
-                "reference": "25767cba66987b0a8aa188e65ed940b4f4cae98e",
+                "url": "https://api.github.com/repos/mauricerenck/indieConnector/zipball/6903b203c117344a71fa2edf9d2a36df162d004c",
+                "reference": "6903b203c117344a71fa2edf9d2a36df162d004c",
                 "shasum": ""
             },
             "require": {
@@ -1000,7 +1001,59 @@
                 "issues": "https://github.com/mauricerenck/indieConnector/issues",
                 "source": "https://github.com/mauricerenck/indieConnector"
             },
-            "time": "2025-01-24T14:26:13+00:00"
+            "time": "2025-02-28T11:59:07+00:00"
+        },
+        {
+            "name": "mauricerenck/komments",
+            "version": "2.1.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mauricerenck/komments.git",
+                "reference": "c13424f4557ac4f1ed2db7e57fd53472aab1d5d6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mauricerenck/komments/zipball/c13424f4557ac4f1ed2db7e57fd53472aab1d5d6",
+                "reference": "c13424f4557ac4f1ed2db7e57fd53472aab1d5d6",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "getkirby/composer-installer": "^1.2",
+                "indieweb/mention-client": "^1.2",
+                "php": ">=8.0.0"
+            },
+            "require-dev": {
+                "getkirby/cms": "^4",
+                "mockery/mockery": "^1.6",
+                "phpunit/phpunit": "^9.5."
+            },
+            "type": "kirby-plugin",
+            "autoload": {
+                "psr-4": {
+                    "mauricerenck\\Komments\\": "utils/"
+                },
+                "classmap": [
+                    "utils"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Maurice Renck",
+                    "email": "hello@maurice-renck.de"
+                }
+            ],
+            "description": "A comment and webmention plugin for Kirby 3",
+            "homepage": "https://github.com/mauricerenck/komments",
+            "support": {
+                "issues": "https://github.com/mauricerenck/komments/issues",
+                "source": "https://github.com/mauricerenck/komments/tree/v2.1.2"
+            },
+            "time": "2024-09-02T08:04:10+00:00"
         },
         {
             "name": "mauricerenck/ogimage",
