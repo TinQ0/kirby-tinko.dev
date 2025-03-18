@@ -48,6 +48,23 @@ columns:
               mail@tinko.dev
             required: true
             multiple: false
+
+      stats:
+        type: stats
+        label: Page views
+        size: huge
+        reports:
+          - label: "Last visited:"
+            value: "{{ page.pageviewcount }}"
+            info: "{{ page.pagelastvisited('Y-m-d') }}"
+            theme: info
+
+      files:
+        type: files
+
+      created:
+        type: fields
+        fields:
           created:
             type: date
             time: true
@@ -55,36 +72,10 @@ columns:
             required: true
             disabled: true
 
-      files:
-        type: files
 
-      info:
-        type: fields
-        fields:
-          counter:
-            label: Page view count
-            type: viewcount
-          lastvisited:
-            label: Page last visited
-            type: lastvisited
-            format: 'DD-MM-YYYY'
 
-      betterstats:
-        type: stats
-        reports:
-          - label: View Count of Page
-            value: "{{ page.pageviewcount }}"
-          - label: View Count with Children
-            value: "{{ page.children.pageviewcount(page.pageviewcount) }}"
 
-      Komments:
-        type: stats
-        reports:
-          - label: Pending Comments
-            value: "{{ site.numberOfPendingComments }}"
-            info: "Possible spam: {{ site.numberOfSpamComments }}"
-            link: https://getkirby.com/shop
-            theme: negative
+
 
 
 

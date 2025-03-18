@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "04022c6431b15f1b92877ad8f590d532",
+    "content-hash": "c98a7fc0ec3140afe769dedb0458a901",
     "packages": [
         {
             "name": "bnomei/kirby3-feed",
@@ -78,16 +78,16 @@
         },
         {
             "name": "bnomei/kirby3-pageviewcounter",
-            "version": "5.1.0",
+            "version": "5.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/bnomei/kirby3-pageviewcounter.git",
-                "reference": "54242dcdc34a0acf2085facd82b92328362a6e7b"
+                "reference": "6632f1f68b058eb8b5b94684aba84bffed571c60"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/bnomei/kirby3-pageviewcounter/zipball/54242dcdc34a0acf2085facd82b92328362a6e7b",
-                "reference": "54242dcdc34a0acf2085facd82b92328362a6e7b",
+                "url": "https://api.github.com/repos/bnomei/kirby3-pageviewcounter/zipball/6632f1f68b058eb8b5b94684aba84bffed571c60",
+                "reference": "6632f1f68b058eb8b5b94684aba84bffed571c60",
                 "shasum": ""
             },
             "require": {
@@ -136,9 +136,9 @@
             ],
             "support": {
                 "issues": "https://github.com/bnomei/kirby3-pageviewcounter/issues",
-                "source": "https://github.com/bnomei/kirby3-pageviewcounter/tree/v5.1.0"
+                "source": "https://github.com/bnomei/kirby3-pageviewcounter/tree/v5.2.0"
             },
-            "time": "2025-02-21T22:25:17+00:00"
+            "time": "2025-03-18T20:22:48+00:00"
         },
         {
             "name": "christian-riesen/base32",
@@ -702,16 +702,16 @@
         },
         {
             "name": "jaybizzle/crawler-detect",
-            "version": "v1.3.3",
+            "version": "v1.3.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/JayBizzle/Crawler-Detect.git",
-                "reference": "d14a1c24553d7024a577ebc2bd8667de1033be68"
+                "reference": "d3b7ff28994e1b0de764ab7412fa269a79634ff3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/JayBizzle/Crawler-Detect/zipball/d14a1c24553d7024a577ebc2bd8667de1033be68",
-                "reference": "d14a1c24553d7024a577ebc2bd8667de1033be68",
+                "url": "https://api.github.com/repos/JayBizzle/Crawler-Detect/zipball/d3b7ff28994e1b0de764ab7412fa269a79634ff3",
+                "reference": "d3b7ff28994e1b0de764ab7412fa269a79634ff3",
                 "shasum": ""
             },
             "require": {
@@ -748,9 +748,9 @@
             ],
             "support": {
                 "issues": "https://github.com/JayBizzle/Crawler-Detect/issues",
-                "source": "https://github.com/JayBizzle/Crawler-Detect/tree/v1.3.3"
+                "source": "https://github.com/JayBizzle/Crawler-Detect/tree/v1.3.4"
             },
-            "time": "2025-02-26T18:40:58+00:00"
+            "time": "2025-03-05T23:12:10+00:00"
         },
         {
             "name": "laminas/laminas-escaper",
@@ -1005,16 +1005,16 @@
         },
         {
             "name": "mauricerenck/komments",
-            "version": "2.1.2",
+            "version": "3.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mauricerenck/komments.git",
-                "reference": "c13424f4557ac4f1ed2db7e57fd53472aab1d5d6"
+                "reference": "b19f78e1f5030582e920e31a432586b177f843ae"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mauricerenck/komments/zipball/c13424f4557ac4f1ed2db7e57fd53472aab1d5d6",
-                "reference": "c13424f4557ac4f1ed2db7e57fd53472aab1d5d6",
+                "url": "https://api.github.com/repos/mauricerenck/komments/zipball/b19f78e1f5030582e920e31a432586b177f843ae",
+                "reference": "b19f78e1f5030582e920e31a432586b177f843ae",
                 "shasum": ""
             },
             "require": {
@@ -1031,10 +1031,10 @@
             "type": "kirby-plugin",
             "autoload": {
                 "psr-4": {
-                    "mauricerenck\\Komments\\": "utils/"
+                    "mauricerenck\\Komments\\": "lib/"
                 },
                 "classmap": [
-                    "utils"
+                    "lib"
                 ]
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -1051,9 +1051,9 @@
             "homepage": "https://github.com/mauricerenck/komments",
             "support": {
                 "issues": "https://github.com/mauricerenck/komments/issues",
-                "source": "https://github.com/mauricerenck/komments/tree/v2.1.2"
+                "source": "https://github.com/mauricerenck/komments/tree/v3.0.0"
             },
-            "time": "2024-09-02T08:04:10+00:00"
+            "time": "2025-03-18T10:55:16+00:00"
         },
         {
             "name": "mauricerenck/ogimage",

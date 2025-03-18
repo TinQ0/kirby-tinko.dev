@@ -19,7 +19,11 @@ return [
     'mauricerenck.indieConnector.post.prefereLanguage' => 'en',
     'mauricerenck.indieConnector.post.textfields' => ['title'],
 
-    'mauricerenck.komments.moderation.autoPublish' => ['mail@tinko.dev'],
+    'mauricerenck.komments.storage.type' => 'sqlite',
+    'mauricerenck.komments.storage.sqlitePath' => 'content/.databases/',
+    'mauricerenck.komments.webmentions.publish' => false,
+    'mauricerenck.komments.panel.webmentions' => true,
+    'mauricerenck.komments.spam.delete' => false,
 
     "mauricerenck.ogimage.width" => 1200,
     "mauricerenck.ogimage.height" => 628,
