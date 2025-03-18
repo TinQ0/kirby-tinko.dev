@@ -4,7 +4,9 @@
 <main class="main">
 
   <h1><?= $page->title() ?></h1>
-  <h2>Might come later</h2>
+  <article>
+    <?= $page->text()->footnotes() ?>
+  </article>
 
 </main>
 
