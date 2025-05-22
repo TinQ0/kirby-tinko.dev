@@ -1,87 +1,156 @@
 /*CSS reset*/
 /*From https://piccalil.li/blog/a-more-modern-css-reset/*/
 
-/* Box sizing rules */
-/**,*/
-/**::before,*/
-/**::after {*/
-/*    box-sizing: border-box;*/
-/*}*/
+/* Box sizing rules*/
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
 
-/*!* Prevent font size inflation *!*/
-/*html {*/
-/*    -moz-text-size-adjust: none;*/
-/*    -webkit-text-size-adjust: none;*/
-/*    text-size-adjust: none;*/
-/*}*/
+/* Prevent font size inflation */
+html {
+    -moz-text-size-adjust: none;
+    -webkit-text-size-adjust: none;
+    text-size-adjust: none;
+}
 
-/*!* Remove default margin in favour of better control in authored CSS *!*/
-/*body, h1, h2, h3, h4, p,*/
-/*figure, blockquote, dl, dd {*/
-/*    margin-block-end: 0;*/
-/*}*/
+/* Remove default margin in favour of better control in authored CSS */
+body, h1, h2, h3, h4, p,
+figure, blockquote, dl, dd {
+    margin-block-end: 0;
+}
 
-/*!* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed *!*/
-/*ul[role='list'],*/
-/*ol[role='list'] {*/
-/*    list-style: none;*/
-/*}*/
+/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+ul[role='list'],
+ol[role='list'] {
+    list-style: none;
+}
 
-/*!* Set core body defaults *!*/
-/*body {*/
-/*    min-height: 100vh;*/
-/*    line-height: 1.5;*/
-/*}*/
+/* Set core body defaults */
+body {
+    min-height: 100vh;
+    line-height: 1.5;
+}
 
-/*!* Set shorter line heights on headings and interactive elements *!*/
-/*h1, h2, h3, h4,*/
-/*button, input, label {*/
-/*    line-height: 1.1;*/
-/*}*/
+/* Set shorter line heights on headings and interactive elements */
+h1, h2, h3, h4,
+button, input, label {
+    line-height: 1.1;
+}
 
-/*!* Balance text wrapping on headings *!*/
-/*h1, h2,*/
-/*h3, h4 {*/
-/*    text-wrap: balance;*/
-/*}*/
+/* Balance text wrapping on headings */
+h1, h2,
+h3, h4 {
+    text-wrap: balance;
+}
 
-/*!* A elements that don't have a class get default styles *!*/
-/*a:not([class]) {*/
-/*    text-decoration-skip-ink: auto;*/
-/*    color: currentColor;*/
-/*}*/
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+    text-decoration-skip-ink: auto;
+    color: currentColor;
+}
 
-/*!* Make images easier to work with *!*/
-/*img,*/
-/*picture {*/
-/*    max-width: 100%;*/
-/*    display: block;*/
-/*}*/
+/* Make images easier to work with */
+img,
+picture {
+    max-width: 100%;
+    display: block;
+}
 
-/*!* Inherit fonts for inputs and buttons *!*/
-/*input, button,*/
-/*textarea, select {*/
-/*    font-family: inherit;*/
-/*    font-size: inherit;*/
-/*}*/
+/* Inherit fonts for inputs and buttons */
+input, button,
+textarea, select {
+    font-family: inherit;
+    font-size: inherit;
+}
 
-/*!* Make sure textareas without a rows attribute are not tiny *!*/
-/*textarea:not([rows]) {*/
-/*    min-height: 10em;*/
-/*}*/
+/* Make sure textareas without a rows attribute are not tiny */
+textarea:not([rows]) {
+    min-height: 10em;
+}
 
-/*!* Anything that has been anchored to should have extra scroll margin *!*/
-/*:target {*/
-/*    scroll-margin-block: 5ex;*/
-/*}*/
+/* Anything that has been anchored to should have extra scroll margin */
+:target {
+    scroll-margin-block: 5ex;
+}
 
 body {
     background-color: #fbf9e8;
     color: #191919;
 }
 
+@font-face {
+    font-family: "Embossing Tape 1 (BRK)";
+    src: url('../fonts/embosst1.ttf') format('truetype');
+}
+@font-face {
+    font-family: "Embossing Tape 2 (BRK)";
+    src: url('../fonts/embosst2.ttf') format('truetype');
+}
+@font-face {
+    font-family: "Embossing Tape 3 (BRK)";
+    src: url('../fonts/embosst3.ttf') format('truetype');
+}
+
+.logo {
+    position: fixed;
+}
+nav.menu {
+    position: fixed;
+    bottom: 0;
+}
+
+nav.menu ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: flex-end;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Rotate the menu labels on hover and handle positioning after clicking */
+nav.menu a:hover {
+    transform: rotate(-2deg);
+    transition: transform 0.3s ease-in-out;
+}
+
+nav.menu li{
+    display: flex;
+    padding: 0 0.2rem;
+}
+
+nav.menu a {
+    padding: 2rem 4rem;
+    background: #63850b;
+    text-decoration: none;
+    border-radius: 1rem 1rem 0 0;
+    box-shadow: rgba(38, 57, 77, 0.76) 10px 0px 20px;
+}
+
+.label {
+    transform: rotate(10deg);
+    padding: 3px;
+    font-family: "Embossing Tape 1 (BRK)", monospace;
+    color: white;
+    background: black;
+}
+
+.main {
+    background: white;
+    box-shadow: rgba(38, 57, 77, 0.76) 10px 0px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+
+    /* Ensure the main area fits at least the dimensions of an A4 page */
+    min-height: 150vh;
+}
+
 .type {
-    font-family: monospace;
+    font-family: "Embossing Tape 1 (BRK)";
     color:#0000;
     white-space-collapse: preserve-spaces;
     background:
