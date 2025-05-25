@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c98a7fc0ec3140afe769dedb0458a901",
+    "content-hash": "babca8bcd4aa080104129e7d7f6b55e6",
     "packages": [
         {
             "name": "bnomei/kirby3-feed",
@@ -78,16 +78,16 @@
         },
         {
             "name": "bnomei/kirby3-pageviewcounter",
-            "version": "5.2.0",
+            "version": "5.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/bnomei/kirby3-pageviewcounter.git",
-                "reference": "6632f1f68b058eb8b5b94684aba84bffed571c60"
+                "reference": "1d03e9af3866129be34c680a2c4f6b459fb17d8c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/bnomei/kirby3-pageviewcounter/zipball/6632f1f68b058eb8b5b94684aba84bffed571c60",
-                "reference": "6632f1f68b058eb8b5b94684aba84bffed571c60",
+                "url": "https://api.github.com/repos/bnomei/kirby3-pageviewcounter/zipball/1d03e9af3866129be34c680a2c4f6b459fb17d8c",
+                "reference": "1d03e9af3866129be34c680a2c4f6b459fb17d8c",
                 "shasum": ""
             },
             "require": {
@@ -136,9 +136,9 @@
             ],
             "support": {
                 "issues": "https://github.com/bnomei/kirby3-pageviewcounter/issues",
-                "source": "https://github.com/bnomei/kirby3-pageviewcounter/tree/v5.2.0"
+                "source": "https://github.com/bnomei/kirby3-pageviewcounter/tree/v5.3.1"
             },
-            "time": "2025-03-18T20:22:48+00:00"
+            "time": "2025-03-24T16:30:48+00:00"
         },
         {
             "name": "christian-riesen/base32",
@@ -201,16 +201,16 @@
         },
         {
             "name": "cjrasmussen/bluesky-api",
-            "version": "2.3.2",
+            "version": "2.3.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/cjrasmussen/BlueskyApi.git",
-                "reference": "3e07b1dab05aa8a6d270e5b42496df2c41d7437b"
+                "reference": "d55fdf60e9ee3b9c46a37079d64a4c76b99b5106"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cjrasmussen/BlueskyApi/zipball/3e07b1dab05aa8a6d270e5b42496df2c41d7437b",
-                "reference": "3e07b1dab05aa8a6d270e5b42496df2c41d7437b",
+                "url": "https://api.github.com/repos/cjrasmussen/BlueskyApi/zipball/d55fdf60e9ee3b9c46a37079d64a4c76b99b5106",
+                "reference": "d55fdf60e9ee3b9c46a37079d64a4c76b99b5106",
                 "shasum": ""
             },
             "require": {
@@ -245,7 +245,7 @@
                 "issues": "https://github.com/cjrasmussen/BlueskyApi/issues",
                 "source": "https://github.com/cjrasmussen/BlueskyApi"
             },
-            "time": "2024-11-26T22:43:46+00:00"
+            "time": "2025-05-13T13:49:11+00:00"
         },
         {
             "name": "claviska/simpleimage",
@@ -383,23 +383,23 @@
         },
         {
             "name": "czproject/git-php",
-            "version": "v4.3.0",
+            "version": "v4.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/czproject/git-php.git",
-                "reference": "f7fe85cc526c5f8e7ed809f7f9c68f2696940a8a"
+                "reference": "3f2c75c6456b03730955a17a457247861390a6aa"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/czproject/git-php/zipball/f7fe85cc526c5f8e7ed809f7f9c68f2696940a8a",
-                "reference": "f7fe85cc526c5f8e7ed809f7f9c68f2696940a8a",
+                "url": "https://api.github.com/repos/czproject/git-php/zipball/3f2c75c6456b03730955a17a457247861390a6aa",
+                "reference": "3f2c75c6456b03730955a17a457247861390a6aa",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.6.0"
+                "php": ">=7.4.0"
             },
             "require-dev": {
-                "nette/tester": "^2.0"
+                "nette/tester": "^2.4"
             },
             "type": "library",
             "autoload": {
@@ -423,28 +423,32 @@
             ],
             "support": {
                 "issues": "https://github.com/czproject/git-php/issues",
-                "source": "https://github.com/czproject/git-php/tree/v4.3.0"
+                "source": "https://github.com/czproject/git-php/tree/v4.4.0"
             },
             "funding": [
                 {
                     "url": "https://www.janpecha.cz/donate/git-php/",
                     "type": "other"
+                },
+                {
+                    "url": "https://donate.stripe.com/7sIcO2a9maTSg2A9AA",
+                    "type": "stripe"
                 }
             ],
-            "time": "2024-08-05T13:28:31+00:00"
+            "time": "2025-03-21T21:34:11+00:00"
         },
         {
             "name": "filp/whoops",
-            "version": "2.17.0",
+            "version": "2.18.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/filp/whoops.git",
-                "reference": "075bc0c26631110584175de6523ab3f1652eb28e"
+                "reference": "a7de6c3c6c3c022f5cfc337f8ede6a14460cf77e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/filp/whoops/zipball/075bc0c26631110584175de6523ab3f1652eb28e",
-                "reference": "075bc0c26631110584175de6523ab3f1652eb28e",
+                "url": "https://api.github.com/repos/filp/whoops/zipball/a7de6c3c6c3c022f5cfc337f8ede6a14460cf77e",
+                "reference": "a7de6c3c6c3c022f5cfc337f8ede6a14460cf77e",
                 "shasum": ""
             },
             "require": {
@@ -494,7 +498,7 @@
             ],
             "support": {
                 "issues": "https://github.com/filp/whoops/issues",
-                "source": "https://github.com/filp/whoops/tree/2.17.0"
+                "source": "https://github.com/filp/whoops/tree/2.18.0"
             },
             "funding": [
                 {
@@ -502,20 +506,20 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-01-25T12:00:00+00:00"
+            "time": "2025-03-15T12:00:00+00:00"
         },
         {
             "name": "getkirby/cms",
-            "version": "4.6.1",
+            "version": "5.0.0-rc.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/getkirby/kirby.git",
-                "reference": "e29f216630ee1c2ab7e3f8f1bb3d335541121587"
+                "reference": "58feeb21cdeddbd41c1be6f06b3560fae5480bc0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/getkirby/kirby/zipball/e29f216630ee1c2ab7e3f8f1bb3d335541121587",
-                "reference": "e29f216630ee1c2ab7e3f8f1bb3d335541121587",
+                "url": "https://api.github.com/repos/getkirby/kirby/zipball/58feeb21cdeddbd41c1be6f06b3560fae5480bc0",
+                "reference": "58feeb21cdeddbd41c1be6f06b3560fae5480bc0",
                 "shasum": ""
             },
             "require": {
@@ -533,15 +537,15 @@
                 "ext-mbstring": "*",
                 "ext-openssl": "*",
                 "ext-simplexml": "*",
-                "filp/whoops": "2.17.0",
+                "filp/whoops": "2.18.0",
                 "getkirby/composer-installer": "^1.2.1",
-                "laminas/laminas-escaper": "2.15.0",
+                "laminas/laminas-escaper": "2.17.0",
                 "michelf/php-smartypants": "1.8.1",
-                "php": "~8.1.0 || ~8.2.0 || ~8.3.0 || ~8.4.0",
-                "phpmailer/phpmailer": "6.9.3",
-                "symfony/polyfill-intl-idn": "1.31.0",
-                "symfony/polyfill-mbstring": "1.31.0",
-                "symfony/yaml": "6.4.18"
+                "php": "~8.2.0 || ~8.3.0 || ~8.4.0",
+                "phpmailer/phpmailer": "6.10.0",
+                "symfony/polyfill-intl-idn": "1.32.0",
+                "symfony/polyfill-mbstring": "1.32.0",
+                "symfony/yaml": "7.2.6"
             },
             "replace": {
                 "symfony/polyfill-php72": "*"
@@ -553,6 +557,7 @@
                 "ext-fileinfo": "Improved mime type detection for files",
                 "ext-intl": "Improved i18n number formatting",
                 "ext-memcached": "Support for the Memcached cache driver",
+                "ext-redis": "Support for the Redis cache driver",
                 "ext-sodium": "Support for the crypto class and more robust session handling",
                 "ext-zip": "Support for ZIP archive file functions",
                 "ext-zlib": "Sanitization and validation for svgz files"
@@ -605,7 +610,7 @@
                     "type": "custom"
                 }
             ],
-            "time": "2025-02-06T15:39:59+00:00"
+            "time": "2025-05-20T10:27:49+00:00"
         },
         {
             "name": "getkirby/composer-installer",
@@ -754,16 +759,16 @@
         },
         {
             "name": "laminas/laminas-escaper",
-            "version": "2.15.0",
+            "version": "2.17.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laminas/laminas-escaper.git",
-                "reference": "c612b0488ae486284c39885efca494c180f16351"
+                "reference": "df1ef9503299a8e3920079a16263b578eaf7c3ba"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laminas/laminas-escaper/zipball/c612b0488ae486284c39885efca494c180f16351",
-                "reference": "c612b0488ae486284c39885efca494c180f16351",
+                "url": "https://api.github.com/repos/laminas/laminas-escaper/zipball/df1ef9503299a8e3920079a16263b578eaf7c3ba",
+                "reference": "df1ef9503299a8e3920079a16263b578eaf7c3ba",
                 "shasum": ""
             },
             "require": {
@@ -775,12 +780,11 @@
                 "zendframework/zend-escaper": "*"
             },
             "require-dev": {
-                "infection/infection": "^0.27.11",
+                "infection/infection": "^0.29.8",
                 "laminas/laminas-coding-standard": "~3.0.1",
-                "maglnet/composer-require-checker": "^3.8.0",
-                "phpunit/phpunit": "^9.6.22",
-                "psalm/plugin-phpunit": "^0.19.0",
-                "vimeo/psalm": "^5.26.1"
+                "phpunit/phpunit": "^10.5.45",
+                "psalm/plugin-phpunit": "^0.19.2",
+                "vimeo/psalm": "^6.6.2"
             },
             "type": "library",
             "autoload": {
@@ -812,7 +816,7 @@
                     "type": "community_bridge"
                 }
             ],
-            "time": "2024-12-17T19:39:54+00:00"
+            "time": "2025-05-06T19:29:36+00:00"
         },
         {
             "name": "league/color-extractor",
@@ -947,16 +951,16 @@
         },
         {
             "name": "mauricerenck/indieconnector",
-            "version": "2.6.0",
+            "version": "2.7.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mauricerenck/indieConnector.git",
-                "reference": "6903b203c117344a71fa2edf9d2a36df162d004c"
+                "reference": "1c81bab9571db5f28a3b3558b2e59f465fc67544"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mauricerenck/indieConnector/zipball/6903b203c117344a71fa2edf9d2a36df162d004c",
-                "reference": "6903b203c117344a71fa2edf9d2a36df162d004c",
+                "url": "https://api.github.com/repos/mauricerenck/indieConnector/zipball/1c81bab9571db5f28a3b3558b2e59f465fc67544",
+                "reference": "1c81bab9571db5f28a3b3558b2e59f465fc67544",
                 "shasum": ""
             },
             "require": {
@@ -1001,20 +1005,20 @@
                 "issues": "https://github.com/mauricerenck/indieConnector/issues",
                 "source": "https://github.com/mauricerenck/indieConnector"
             },
-            "time": "2025-02-28T11:59:07+00:00"
+            "time": "2025-04-16T13:34:45+00:00"
         },
         {
             "name": "mauricerenck/komments",
-            "version": "3.0.0",
+            "version": "3.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mauricerenck/komments.git",
-                "reference": "b19f78e1f5030582e920e31a432586b177f843ae"
+                "reference": "e0c02fa6ee15beee57f58a6756e50d681d510766"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mauricerenck/komments/zipball/b19f78e1f5030582e920e31a432586b177f843ae",
-                "reference": "b19f78e1f5030582e920e31a432586b177f843ae",
+                "url": "https://api.github.com/repos/mauricerenck/komments/zipball/e0c02fa6ee15beee57f58a6756e50d681d510766",
+                "reference": "e0c02fa6ee15beee57f58a6756e50d681d510766",
                 "shasum": ""
             },
             "require": {
@@ -1051,9 +1055,9 @@
             "homepage": "https://github.com/mauricerenck/komments",
             "support": {
                 "issues": "https://github.com/mauricerenck/komments/issues",
-                "source": "https://github.com/mauricerenck/komments/tree/v3.0.0"
+                "source": "https://github.com/mauricerenck/komments/tree/v3.1.1"
             },
-            "time": "2025-03-18T10:55:16+00:00"
+            "time": "2025-04-18T10:42:44+00:00"
         },
         {
             "name": "mauricerenck/ogimage",
@@ -1217,67 +1221,6 @@
             "time": "2016-12-13T01:01:17+00:00"
         },
         {
-            "name": "moritzebeling/kirby-favicon",
-            "version": "1.0.5",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/moritzebeling/kirby-favicon.git",
-                "reference": "83624e6687033864342b310da5d164fb549ba811"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/moritzebeling/kirby-favicon/zipball/83624e6687033864342b310da5d164fb549ba811",
-                "reference": "83624e6687033864342b310da5d164fb549ba811",
-                "shasum": ""
-            },
-            "require": {
-                "getkirby/composer-installer": "^1.1",
-                "php": ">=7.4.0"
-            },
-            "type": "kirby-plugin",
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Moritz Ebeling",
-                    "homepage": "https://moritzebeling.com"
-                }
-            ],
-            "description": "Kirby plugin to meet all favicon needs",
-            "homepage": "https://github.com/moritzebeling/kirby-favicon",
-            "keywords": [
-                "app-icon",
-                "apple-touch-icon",
-                "browserconfig.xml",
-                "favicon",
-                "icon",
-                "kirby",
-                "kirby-cms",
-                "kirby-plugin",
-                "logo",
-                "manifest.json",
-                "meta",
-                "php",
-                "plugin",
-                "seo"
-            ],
-            "support": {
-                "docs": "https://github.com/moritzebeling/kirby-favicon",
-                "issues": "https://github.com/moritzebeling/kirby-favicon/issues",
-                "source": "https://github.com/moritzebeling/kirby-favicon",
-                "wiki": "https://github.com/moritzebeling/kirby-favicon/wiki"
-            },
-            "funding": [
-                {
-                    "url": "http://more.moritzebeling.com/support",
-                    "type": "paypal"
-                }
-            ],
-            "time": "2023-03-02T00:00:00+00:00"
-        },
-        {
             "name": "mustangostang/spyc",
             "version": "0.6.3",
             "source": {
@@ -1333,16 +1276,16 @@
         },
         {
             "name": "phpmailer/phpmailer",
-            "version": "v6.9.3",
+            "version": "v6.10.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/PHPMailer/PHPMailer.git",
-                "reference": "2f5c94fe7493efc213f643c23b1b1c249d40f47e"
+                "reference": "bf74d75a1fde6beaa34a0ddae2ec5fce0f72a144"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/PHPMailer/PHPMailer/zipball/2f5c94fe7493efc213f643c23b1b1c249d40f47e",
-                "reference": "2f5c94fe7493efc213f643c23b1b1c249d40f47e",
+                "url": "https://api.github.com/repos/PHPMailer/PHPMailer/zipball/bf74d75a1fde6beaa34a0ddae2ec5fce0f72a144",
+                "reference": "bf74d75a1fde6beaa34a0ddae2ec5fce0f72a144",
                 "shasum": ""
             },
             "require": {
@@ -1402,7 +1345,7 @@
             "description": "PHPMailer is a full-featured email creation and transfer class for PHP",
             "support": {
                 "issues": "https://github.com/PHPMailer/PHPMailer/issues",
-                "source": "https://github.com/PHPMailer/PHPMailer/tree/v6.9.3"
+                "source": "https://github.com/PHPMailer/PHPMailer/tree/v6.10.0"
             },
             "funding": [
                 {
@@ -1410,7 +1353,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-11-24T18:04:13+00:00"
+            "time": "2025-04-24T15:19:31+00:00"
         },
         {
             "name": "psr/log",
@@ -1569,7 +1512,7 @@
         },
         {
             "name": "symfony/polyfill-ctype",
-            "version": "v1.31.0",
+            "version": "v1.32.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-ctype.git",
@@ -1628,7 +1571,7 @@
                 "portable"
             ],
             "support": {
-                "source": "https://github.com/symfony/polyfill-ctype/tree/v1.31.0"
+                "source": "https://github.com/symfony/polyfill-ctype/tree/v1.32.0"
             },
             "funding": [
                 {
@@ -1648,16 +1591,16 @@
         },
         {
             "name": "symfony/polyfill-intl-idn",
-            "version": "v1.31.0",
+            "version": "v1.32.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-intl-idn.git",
-                "reference": "c36586dcf89a12315939e00ec9b4474adcb1d773"
+                "reference": "9614ac4d8061dc257ecc64cba1b140873dce8ad3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-intl-idn/zipball/c36586dcf89a12315939e00ec9b4474adcb1d773",
-                "reference": "c36586dcf89a12315939e00ec9b4474adcb1d773",
+                "url": "https://api.github.com/repos/symfony/polyfill-intl-idn/zipball/9614ac4d8061dc257ecc64cba1b140873dce8ad3",
+                "reference": "9614ac4d8061dc257ecc64cba1b140873dce8ad3",
                 "shasum": ""
             },
             "require": {
@@ -1711,7 +1654,7 @@
                 "shim"
             ],
             "support": {
-                "source": "https://github.com/symfony/polyfill-intl-idn/tree/v1.31.0"
+                "source": "https://github.com/symfony/polyfill-intl-idn/tree/v1.32.0"
             },
             "funding": [
                 {
@@ -1727,11 +1670,11 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-09-09T11:45:10+00:00"
+            "time": "2024-09-10T14:38:51+00:00"
         },
         {
             "name": "symfony/polyfill-intl-normalizer",
-            "version": "v1.31.0",
+            "version": "v1.32.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-intl-normalizer.git",
@@ -1792,7 +1735,7 @@
                 "shim"
             ],
             "support": {
-                "source": "https://github.com/symfony/polyfill-intl-normalizer/tree/v1.31.0"
+                "source": "https://github.com/symfony/polyfill-intl-normalizer/tree/v1.32.0"
             },
             "funding": [
                 {
@@ -1812,19 +1755,20 @@
         },
         {
             "name": "symfony/polyfill-mbstring",
-            "version": "v1.31.0",
+            "version": "v1.32.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-mbstring.git",
-                "reference": "85181ba99b2345b0ef10ce42ecac37612d9fd341"
+                "reference": "6d857f4d76bd4b343eac26d6b539585d2bc56493"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/85181ba99b2345b0ef10ce42ecac37612d9fd341",
-                "reference": "85181ba99b2345b0ef10ce42ecac37612d9fd341",
+                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/6d857f4d76bd4b343eac26d6b539585d2bc56493",
+                "reference": "6d857f4d76bd4b343eac26d6b539585d2bc56493",
                 "shasum": ""
             },
             "require": {
+                "ext-iconv": "*",
                 "php": ">=7.2"
             },
             "provide": {
@@ -1872,7 +1816,7 @@
                 "shim"
             ],
             "support": {
-                "source": "https://github.com/symfony/polyfill-mbstring/tree/v1.31.0"
+                "source": "https://github.com/symfony/polyfill-mbstring/tree/v1.32.0"
             },
             "funding": [
                 {
@@ -1888,32 +1832,32 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-09-09T11:45:10+00:00"
+            "time": "2024-12-23T08:48:59+00:00"
         },
         {
             "name": "symfony/yaml",
-            "version": "v6.4.18",
+            "version": "v7.2.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/yaml.git",
-                "reference": "bf598c9d9bb4a22f495a4e26e4c4fce2f8ecefc5"
+                "reference": "0feafffb843860624ddfd13478f481f4c3cd8b23"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/yaml/zipball/bf598c9d9bb4a22f495a4e26e4c4fce2f8ecefc5",
-                "reference": "bf598c9d9bb4a22f495a4e26e4c4fce2f8ecefc5",
+                "url": "https://api.github.com/repos/symfony/yaml/zipball/0feafffb843860624ddfd13478f481f4c3cd8b23",
+                "reference": "0feafffb843860624ddfd13478f481f4c3cd8b23",
                 "shasum": ""
             },
             "require": {
-                "php": ">=8.1",
-                "symfony/deprecation-contracts": "^2.5|^3",
+                "php": ">=8.2",
+                "symfony/deprecation-contracts": "^2.5|^3.0",
                 "symfony/polyfill-ctype": "^1.8"
             },
             "conflict": {
-                "symfony/console": "<5.4"
+                "symfony/console": "<6.4"
             },
             "require-dev": {
-                "symfony/console": "^5.4|^6.0|^7.0"
+                "symfony/console": "^6.4|^7.0"
             },
             "bin": [
                 "Resources/bin/yaml-lint"
@@ -1944,7 +1888,7 @@
             "description": "Loads and dumps YAML files",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/yaml/tree/v6.4.18"
+                "source": "https://github.com/symfony/yaml/tree/v7.2.6"
             },
             "funding": [
                 {
@@ -1960,7 +1904,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2025-01-07T09:44:41+00:00"
+            "time": "2025-04-04T10:10:11+00:00"
         },
         {
             "name": "thathoff/kirby-git-content",
@@ -2018,7 +1962,9 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "getkirby/cms": 5
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {

@@ -11,8 +11,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title><?= $site->title() ?>/<?= $page->title() ?></title>
     <base href="<?= $page->url() ?>">
+    <link rel="icon" href="/assets/favicon/favicon.ico" sizes="32x32">
+    <link rel="icon" href="/assets/favicon/favicon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="/assets/favicon/favicon.png">
     <?= css("https://cdn.simplecss.org/simple.min.css")?>
-    <?php snippet('favicon') ?>
     <?php snippet('webmention-endpoint'); ?>
     <meta property="og:title" content="<?= $page->title(); ?>">
     <meta property="og:url" content="<?= $page->url(); ?>">

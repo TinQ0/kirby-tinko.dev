@@ -12,7 +12,9 @@
   <title><?= $site->title() ?>/<?= $page->title() ?></title>
   <base href="<?= $page->url() ?>">
   <?= css("assets/css/oldstylesheet.css")?>
-  <?php snippet('favicon') ?>
+  <link rel="icon" href="/assets/favicon/favicon.ico" sizes="32x32">
+  <link rel="icon" href="/assets/favicon/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="/assets/favicon/favicon.png">
   <?php snippet('webmention-endpoint'); ?>
 </head>
 
