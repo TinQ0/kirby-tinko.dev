@@ -11,6 +11,7 @@
 !/databases/index.html
 
 /site/config/env.php
+/site/plugins/
 
 # System files
 # ------------
