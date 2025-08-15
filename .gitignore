@@ -12,6 +12,7 @@
 
 /site/config/env.php
 /site/plugins/
+/site/plugins/*
 
 # System files
 # ------------
