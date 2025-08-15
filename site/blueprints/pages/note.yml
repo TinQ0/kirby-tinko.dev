@@ -2,12 +2,14 @@ title: Note
 
 num: '{{ page.created.toDate("Ymd") }}'
 
+buttons:
+  settings: true
+  icShare: true
+
 columns:
   main:
     width: 2/3
     fields:
-      indieConnector:
-        extends: indieconnector/fields/webmentions
       text:
         type: markdown
         autofocus: true

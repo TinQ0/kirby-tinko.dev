@@ -2,7 +2,7 @@
 
 <main class="home-main">
 
-    <span class="type" style="--n:23">Hey! I'm Tinko Vialard.&nbsp</span>
+    <span class="type" style="--n:24">Hey! I'm Tinko Vialard.</span>
 
 </main>
 

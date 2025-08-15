@@ -6,7 +6,7 @@ return [
 
     'sylvainjule.footnotes.wrapper'  => 'aside',
 
-    'bnomei.pageviewcounter.ignore-panel-users' => false,
+    'bnomei.pageviewcounter.ignore-panel-users' => true,
 
     'mauricerenck.indieConnector.sqlitePath' => 'content/.databases/',
     'mauricerenck.indieConnector.queue.enabled' => false,
