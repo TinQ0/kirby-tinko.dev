@@ -6,7 +6,15 @@ This is a plugin for [Kirby](http://getkirby.com/) that commits and pushes conte
 
 ## Requirements
 
-This plugin supports **Kirby from version 3.6 (including Kirby 4)** and requires **git version > 2.24**
+This plugin supports **Kirby from version 3.6 (including Kirby 4 and 5)** and requires **git version > 2.24**
+
+Please make sure that PHP on your server has not disabled both `proc_open` and `proc_close` as they are required
+by czproject/git-php used to communicate with git.
+
+Another requirement is that the git repository in your content folder is owned by the user running the PHP process
+otherwise git failes with a `dubious ownership` error.
+
+If you are **updating to Kirby 5**, please make sure to add the `_changes` folder to your `.gitignore` file.
 
 ## Usage
 
@@ -37,14 +45,20 @@ Create a new git repository where you push your content to init the content repo
 ```bash
 cd content
 
-# include .lock files in .gitignore
+# for Kirby 3 and 4 include .lock files in .gitignore
 echo ".lock" >> .gitignore
+
+# for Kirby 5 add the _changes folder to .gitignore
+echo "_changes" >> .gitignore
 
 # init repo
 git init
 git add .
 git commit -m "Initial Commit"
 ```
+
+Please note: Make a first commit to the repository. If you have a repository with no commits, the git content view
+in the panel will not work.
 
 Remove the `content/` folder from your current git repository
 

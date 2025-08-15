@@ -510,16 +510,16 @@
         },
         {
             "name": "getkirby/cms",
-            "version": "5.0.1",
+            "version": "5.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/getkirby/kirby.git",
-                "reference": "ddd11f9b4a23e0b5d306b146ca5d6b7a1c1909a9"
+                "reference": "572dab320d31a84ebb140eb0a4268f91b8a0572c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/getkirby/kirby/zipball/ddd11f9b4a23e0b5d306b146ca5d6b7a1c1909a9",
-                "reference": "ddd11f9b4a23e0b5d306b146ca5d6b7a1c1909a9",
+                "url": "https://api.github.com/repos/getkirby/kirby/zipball/572dab320d31a84ebb140eb0a4268f91b8a0572c",
+                "reference": "572dab320d31a84ebb140eb0a4268f91b8a0572c",
                 "shasum": ""
             },
             "require": {
@@ -610,7 +610,7 @@
                     "type": "custom"
                 }
             ],
-            "time": "2025-07-03T11:23:56+00:00"
+            "time": "2025-07-29T09:32:34+00:00"
         },
         {
             "name": "getkirby/composer-installer",
@@ -951,16 +951,16 @@
         },
         {
             "name": "mauricerenck/indieconnector",
-            "version": "2.10.0",
+            "version": "2.11.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mauricerenck/indieConnector.git",
-                "reference": "8ba83b5c0156f39786c1404c908ebf0b5024b2a1"
+                "reference": "ec5d4a5d3d203cc78208074463ff4b5ad3f2bcd4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mauricerenck/indieConnector/zipball/8ba83b5c0156f39786c1404c908ebf0b5024b2a1",
-                "reference": "8ba83b5c0156f39786c1404c908ebf0b5024b2a1",
+                "url": "https://api.github.com/repos/mauricerenck/indieConnector/zipball/ec5d4a5d3d203cc78208074463ff4b5ad3f2bcd4",
+                "reference": "ec5d4a5d3d203cc78208074463ff4b5ad3f2bcd4",
                 "shasum": ""
             },
             "require": {
@@ -1005,7 +1005,7 @@
                 "issues": "https://github.com/mauricerenck/indieConnector/issues",
                 "source": "https://github.com/mauricerenck/indieConnector"
             },
-            "time": "2025-07-06T16:03:56+00:00"
+            "time": "2025-08-11T12:21:30+00:00"
         },
         {
             "name": "mauricerenck/komments",
@@ -1468,16 +1468,16 @@
         },
         {
             "name": "sylvainjule/footnotes",
-            "version": "2.0.0",
+            "version": "2.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sylvainjule/kirby-footnotes.git",
-                "reference": "a776f6693f9d4989ad06594831838b59590e58e4"
+                "reference": "0f8a353071f809fecb491ca1084f7b68b470b9fd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sylvainjule/kirby-footnotes/zipball/a776f6693f9d4989ad06594831838b59590e58e4",
-                "reference": "a776f6693f9d4989ad06594831838b59590e58e4",
+                "url": "https://api.github.com/repos/sylvainjule/kirby-footnotes/zipball/0f8a353071f809fecb491ca1084f7b68b470b9fd",
+                "reference": "0f8a353071f809fecb491ca1084f7b68b470b9fd",
                 "shasum": ""
             },
             "require": {
@@ -1497,12 +1497,12 @@
                     "email": "contact@sylvain-jule.fr"
                 }
             ],
-            "description": "Footnotes plugin for Kirby 3 and 4",
+            "description": "Footnotes plugin for Kirby 3, 4 and 5",
             "support": {
                 "issues": "https://github.com/sylvainjule/kirby-footnotes/issues",
-                "source": "https://github.com/sylvainjule/kirby-footnotes/tree/2.0.0"
+                "source": "https://github.com/sylvainjule/kirby-footnotes/tree/2.1.1"
             },
-            "time": "2024-05-19T11:23:40+00:00"
+            "time": "2025-08-06T20:11:17+00:00"
         },
         {
             "name": "symfony/deprecation-contracts",
