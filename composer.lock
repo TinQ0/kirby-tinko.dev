@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "babca8bcd4aa080104129e7d7f6b55e6",
+    "content-hash": "c67adcbcc15924851f35960dde7547f7",
     "packages": [
         {
             "name": "bnomei/kirby3-feed",
@@ -383,20 +383,20 @@
         },
         {
             "name": "czproject/git-php",
-            "version": "v4.4.0",
+            "version": "v4.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/czproject/git-php.git",
-                "reference": "3f2c75c6456b03730955a17a457247861390a6aa"
+                "reference": "3ea910e188849d5e239d65167010c05196310915"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/czproject/git-php/zipball/3f2c75c6456b03730955a17a457247861390a6aa",
-                "reference": "3f2c75c6456b03730955a17a457247861390a6aa",
+                "url": "https://api.github.com/repos/czproject/git-php/zipball/3ea910e188849d5e239d65167010c05196310915",
+                "reference": "3ea910e188849d5e239d65167010c05196310915",
                 "shasum": ""
             },
             "require": {
-                "php": ">=7.4.0"
+                "php": "8.0 - 8.4"
             },
             "require-dev": {
                 "nette/tester": "^2.4"
@@ -423,7 +423,7 @@
             ],
             "support": {
                 "issues": "https://github.com/czproject/git-php/issues",
-                "source": "https://github.com/czproject/git-php/tree/v4.4.0"
+                "source": "https://github.com/czproject/git-php/tree/v4.5.0"
             },
             "funding": [
                 {
@@ -435,20 +435,20 @@
                     "type": "stripe"
                 }
             ],
-            "time": "2025-03-21T21:34:11+00:00"
+            "time": "2025-06-10T18:32:14+00:00"
         },
         {
             "name": "filp/whoops",
-            "version": "2.18.0",
+            "version": "2.18.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/filp/whoops.git",
-                "reference": "a7de6c3c6c3c022f5cfc337f8ede6a14460cf77e"
+                "reference": "59a123a3d459c5a23055802237cb317f609867e5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/filp/whoops/zipball/a7de6c3c6c3c022f5cfc337f8ede6a14460cf77e",
-                "reference": "a7de6c3c6c3c022f5cfc337f8ede6a14460cf77e",
+                "url": "https://api.github.com/repos/filp/whoops/zipball/59a123a3d459c5a23055802237cb317f609867e5",
+                "reference": "59a123a3d459c5a23055802237cb317f609867e5",
                 "shasum": ""
             },
             "require": {
@@ -498,7 +498,7 @@
             ],
             "support": {
                 "issues": "https://github.com/filp/whoops/issues",
-                "source": "https://github.com/filp/whoops/tree/2.18.0"
+                "source": "https://github.com/filp/whoops/tree/2.18.3"
             },
             "funding": [
                 {
@@ -506,20 +506,20 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-03-15T12:00:00+00:00"
+            "time": "2025-06-16T00:02:10+00:00"
         },
         {
             "name": "getkirby/cms",
-            "version": "5.0.0-rc.1",
+            "version": "5.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/getkirby/kirby.git",
-                "reference": "58feeb21cdeddbd41c1be6f06b3560fae5480bc0"
+                "reference": "ddd11f9b4a23e0b5d306b146ca5d6b7a1c1909a9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/getkirby/kirby/zipball/58feeb21cdeddbd41c1be6f06b3560fae5480bc0",
-                "reference": "58feeb21cdeddbd41c1be6f06b3560fae5480bc0",
+                "url": "https://api.github.com/repos/getkirby/kirby/zipball/ddd11f9b4a23e0b5d306b146ca5d6b7a1c1909a9",
+                "reference": "ddd11f9b4a23e0b5d306b146ca5d6b7a1c1909a9",
                 "shasum": ""
             },
             "require": {
@@ -537,7 +537,7 @@
                 "ext-mbstring": "*",
                 "ext-openssl": "*",
                 "ext-simplexml": "*",
-                "filp/whoops": "2.18.0",
+                "filp/whoops": "2.18.3",
                 "getkirby/composer-installer": "^1.2.1",
                 "laminas/laminas-escaper": "2.17.0",
                 "michelf/php-smartypants": "1.8.1",
@@ -545,7 +545,7 @@
                 "phpmailer/phpmailer": "6.10.0",
                 "symfony/polyfill-intl-idn": "1.32.0",
                 "symfony/polyfill-mbstring": "1.32.0",
-                "symfony/yaml": "7.2.6"
+                "symfony/yaml": "7.3.1"
             },
             "replace": {
                 "symfony/polyfill-php72": "*"
@@ -610,7 +610,7 @@
                     "type": "custom"
                 }
             ],
-            "time": "2025-05-20T10:27:49+00:00"
+            "time": "2025-07-03T11:23:56+00:00"
         },
         {
             "name": "getkirby/composer-installer",
@@ -707,16 +707,16 @@
         },
         {
             "name": "jaybizzle/crawler-detect",
-            "version": "v1.3.4",
+            "version": "v1.3.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/JayBizzle/Crawler-Detect.git",
-                "reference": "d3b7ff28994e1b0de764ab7412fa269a79634ff3"
+                "reference": "fbf1a3e81d61b088e7af723fb3c7a4ee92ac7e34"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/JayBizzle/Crawler-Detect/zipball/d3b7ff28994e1b0de764ab7412fa269a79634ff3",
-                "reference": "d3b7ff28994e1b0de764ab7412fa269a79634ff3",
+                "url": "https://api.github.com/repos/JayBizzle/Crawler-Detect/zipball/fbf1a3e81d61b088e7af723fb3c7a4ee92ac7e34",
+                "reference": "fbf1a3e81d61b088e7af723fb3c7a4ee92ac7e34",
                 "shasum": ""
             },
             "require": {
@@ -753,9 +753,9 @@
             ],
             "support": {
                 "issues": "https://github.com/JayBizzle/Crawler-Detect/issues",
-                "source": "https://github.com/JayBizzle/Crawler-Detect/tree/v1.3.4"
+                "source": "https://github.com/JayBizzle/Crawler-Detect/tree/v1.3.5"
             },
-            "time": "2025-03-05T23:12:10+00:00"
+            "time": "2025-06-11T17:58:05+00:00"
         },
         {
             "name": "laminas/laminas-escaper",
@@ -881,16 +881,16 @@
         },
         {
             "name": "matomo/device-detector",
-            "version": "6.4.5",
+            "version": "6.4.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/matomo-org/device-detector.git",
-                "reference": "270bbc41f80994e80805ac377b67324eba53c412"
+                "reference": "6f07f615199851548db47a900815d2ea2cdcde08"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/matomo-org/device-detector/zipball/270bbc41f80994e80805ac377b67324eba53c412",
-                "reference": "270bbc41f80994e80805ac377b67324eba53c412",
+                "url": "https://api.github.com/repos/matomo-org/device-detector/zipball/6f07f615199851548db47a900815d2ea2cdcde08",
+                "reference": "6f07f615199851548db47a900815d2ea2cdcde08",
                 "shasum": ""
             },
             "require": {
@@ -947,20 +947,20 @@
                 "source": "https://github.com/matomo-org/matomo",
                 "wiki": "https://dev.matomo.org/"
             },
-            "time": "2025-02-26T17:37:32+00:00"
+            "time": "2025-06-10T10:00:59+00:00"
         },
         {
             "name": "mauricerenck/indieconnector",
-            "version": "2.7.3",
+            "version": "2.10.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mauricerenck/indieConnector.git",
-                "reference": "1c81bab9571db5f28a3b3558b2e59f465fc67544"
+                "reference": "8ba83b5c0156f39786c1404c908ebf0b5024b2a1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mauricerenck/indieConnector/zipball/1c81bab9571db5f28a3b3558b2e59f465fc67544",
-                "reference": "1c81bab9571db5f28a3b3558b2e59f465fc67544",
+                "url": "https://api.github.com/repos/mauricerenck/indieConnector/zipball/8ba83b5c0156f39786c1404c908ebf0b5024b2a1",
+                "reference": "8ba83b5c0156f39786c1404c908ebf0b5024b2a1",
                 "shasum": ""
             },
             "require": {
@@ -975,7 +975,7 @@
                 "mauricerenck/tratschtante": "*"
             },
             "require-dev": {
-                "getkirby/cms": "^4",
+                "getkirby/cms": "^5",
                 "mockery/mockery": "^1.5",
                 "phpunit/phpunit": "^10"
             },
@@ -1005,20 +1005,20 @@
                 "issues": "https://github.com/mauricerenck/indieConnector/issues",
                 "source": "https://github.com/mauricerenck/indieConnector"
             },
-            "time": "2025-04-16T13:34:45+00:00"
+            "time": "2025-07-06T16:03:56+00:00"
         },
         {
             "name": "mauricerenck/komments",
-            "version": "3.1.1",
+            "version": "3.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mauricerenck/komments.git",
-                "reference": "e0c02fa6ee15beee57f58a6756e50d681d510766"
+                "reference": "8d14c6d8f38cdaedac49bff775997716a5cf6198"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mauricerenck/komments/zipball/e0c02fa6ee15beee57f58a6756e50d681d510766",
-                "reference": "e0c02fa6ee15beee57f58a6756e50d681d510766",
+                "url": "https://api.github.com/repos/mauricerenck/komments/zipball/8d14c6d8f38cdaedac49bff775997716a5cf6198",
+                "reference": "8d14c6d8f38cdaedac49bff775997716a5cf6198",
                 "shasum": ""
             },
             "require": {
@@ -1055,9 +1055,9 @@
             "homepage": "https://github.com/mauricerenck/komments",
             "support": {
                 "issues": "https://github.com/mauricerenck/komments/issues",
-                "source": "https://github.com/mauricerenck/komments/tree/v3.1.1"
+                "source": "https://github.com/mauricerenck/komments/tree/v3.4.0"
             },
-            "time": "2025-04-18T10:42:44+00:00"
+            "time": "2025-07-11T09:23:29+00:00"
         },
         {
             "name": "mauricerenck/ogimage",
@@ -1219,6 +1219,67 @@
                 "source": "https://github.com/michelf/php-smartypants/tree/1.8.1"
             },
             "time": "2016-12-13T01:01:17+00:00"
+        },
+        {
+            "name": "moritzebeling/kirby-favicon",
+            "version": "1.0.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/moritzebeling/kirby-favicon.git",
+                "reference": "83624e6687033864342b310da5d164fb549ba811"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/moritzebeling/kirby-favicon/zipball/83624e6687033864342b310da5d164fb549ba811",
+                "reference": "83624e6687033864342b310da5d164fb549ba811",
+                "shasum": ""
+            },
+            "require": {
+                "getkirby/composer-installer": "^1.1",
+                "php": ">=7.4.0"
+            },
+            "type": "kirby-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Moritz Ebeling",
+                    "homepage": "https://moritzebeling.com"
+                }
+            ],
+            "description": "Kirby plugin to meet all favicon needs",
+            "homepage": "https://github.com/moritzebeling/kirby-favicon",
+            "keywords": [
+                "app-icon",
+                "apple-touch-icon",
+                "browserconfig.xml",
+                "favicon",
+                "icon",
+                "kirby",
+                "kirby-cms",
+                "kirby-plugin",
+                "logo",
+                "manifest.json",
+                "meta",
+                "php",
+                "plugin",
+                "seo"
+            ],
+            "support": {
+                "docs": "https://github.com/moritzebeling/kirby-favicon",
+                "issues": "https://github.com/moritzebeling/kirby-favicon/issues",
+                "source": "https://github.com/moritzebeling/kirby-favicon",
+                "wiki": "https://github.com/moritzebeling/kirby-favicon/wiki"
+            },
+            "funding": [
+                {
+                    "url": "http://more.moritzebeling.com/support",
+                    "type": "paypal"
+                }
+            ],
+            "time": "2023-03-02T00:00:00+00:00"
         },
         {
             "name": "mustangostang/spyc",
@@ -1445,16 +1506,16 @@
         },
         {
             "name": "symfony/deprecation-contracts",
-            "version": "v3.5.1",
+            "version": "v3.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/deprecation-contracts.git",
-                "reference": "74c71c939a79f7d5bf3c1ce9f5ea37ba0114c6f6"
+                "reference": "63afe740e99a13ba87ec199bb07bbdee937a5b62"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/deprecation-contracts/zipball/74c71c939a79f7d5bf3c1ce9f5ea37ba0114c6f6",
-                "reference": "74c71c939a79f7d5bf3c1ce9f5ea37ba0114c6f6",
+                "url": "https://api.github.com/repos/symfony/deprecation-contracts/zipball/63afe740e99a13ba87ec199bb07bbdee937a5b62",
+                "reference": "63afe740e99a13ba87ec199bb07bbdee937a5b62",
                 "shasum": ""
             },
             "require": {
@@ -1467,7 +1528,7 @@
                     "name": "symfony/contracts"
                 },
                 "branch-alias": {
-                    "dev-main": "3.5-dev"
+                    "dev-main": "3.6-dev"
                 }
             },
             "autoload": {
@@ -1492,7 +1553,7 @@
             "description": "A generic function and convention to trigger deprecation notices",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/deprecation-contracts/tree/v3.5.1"
+                "source": "https://github.com/symfony/deprecation-contracts/tree/v3.6.0"
             },
             "funding": [
                 {
@@ -1508,7 +1569,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-09-25T14:20:29+00:00"
+            "time": "2024-09-25T14:21:43+00:00"
         },
         {
             "name": "symfony/polyfill-ctype",
@@ -1836,16 +1897,16 @@
         },
         {
             "name": "symfony/yaml",
-            "version": "v7.2.6",
+            "version": "v7.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/yaml.git",
-                "reference": "0feafffb843860624ddfd13478f481f4c3cd8b23"
+                "reference": "0c3555045a46ab3cd4cc5a69d161225195230edb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/yaml/zipball/0feafffb843860624ddfd13478f481f4c3cd8b23",
-                "reference": "0feafffb843860624ddfd13478f481f4c3cd8b23",
+                "url": "https://api.github.com/repos/symfony/yaml/zipball/0c3555045a46ab3cd4cc5a69d161225195230edb",
+                "reference": "0c3555045a46ab3cd4cc5a69d161225195230edb",
                 "shasum": ""
             },
             "require": {
@@ -1888,7 +1949,7 @@
             "description": "Loads and dumps YAML files",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/yaml/tree/v7.2.6"
+                "source": "https://github.com/symfony/yaml/tree/v7.3.1"
             },
             "funding": [
                 {
@@ -1904,28 +1965,28 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2025-04-04T10:10:11+00:00"
+            "time": "2025-06-03T06:57:57+00:00"
         },
         {
             "name": "thathoff/kirby-git-content",
-            "version": "5.2.0",
+            "version": "v5.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thathoff/kirby-git-content.git",
-                "reference": "fca7bc56308a7112e845b62dcf55f003334ff360"
+                "reference": "03cc582d274d4dd1fb7d54f3d88f60621bb829b9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thathoff/kirby-git-content/zipball/fca7bc56308a7112e845b62dcf55f003334ff360",
-                "reference": "fca7bc56308a7112e845b62dcf55f003334ff360",
+                "url": "https://api.github.com/repos/thathoff/kirby-git-content/zipball/03cc582d274d4dd1fb7d54f3d88f60621bb829b9",
+                "reference": "03cc582d274d4dd1fb7d54f3d88f60621bb829b9",
                 "shasum": ""
             },
             "require": {
-                "czproject/git-php": "^4.0.1",
-                "getkirby/composer-installer": "^1.1"
+                "czproject/git-php": "^4.4.0",
+                "getkirby/composer-installer": "^1.2"
             },
             "require-dev": {
-                "getkirby/cms": "^3.6.0|^4.0.0"
+                "getkirby/cms": "^3.6.0|^4.0.0|^5.0.0"
             },
             "type": "kirby-plugin",
             "extra": {
@@ -1956,15 +2017,13 @@
                 "issues": "https://github.com/thathoff/kirby-git-content/issues",
                 "source": "https://github.com/thathoff/kirby-git-content"
             },
-            "time": "2023-12-09T15:53:09+00:00"
+            "time": "2025-05-24T12:31:41+00:00"
         }
     ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "getkirby/cms": 5
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {

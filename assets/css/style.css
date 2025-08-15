@@ -1,0 +1,350 @@
+/*CSS reset*/
+/*From https://piccalil.li/blog/a-more-modern-css-reset/*/
+
+/* Box sizing rules*/
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* Prevent font size inflation */
+html {
+    -moz-text-size-adjust: none;
+    -webkit-text-size-adjust: none;
+    text-size-adjust: none;
+}
+
+/* Remove default margin in favour of better control in authored CSS */
+body, h1, h2, h3, h4, p,
+figure, blockquote, dl, dd {
+    margin: 0;
+}
+
+/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+ul[role='list'],
+ol[role='list'] {
+    list-style: none;
+}
+
+/* Set core body defaults */
+body {
+    min-height: 100vh;
+    line-height: 1.5;
+}
+
+/* Set shorter line heights on headings and interactive elements */
+h1, h2, h3, h4,
+button, input, label {
+    line-height: 1.1;
+}
+
+/* Balance text wrapping on headings */
+h1, h2,
+h3, h4 {
+    text-wrap: balance;
+}
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+    text-decoration-skip-ink: auto;
+    color: currentColor;
+}
+
+/* Make images easier to work with */
+img,
+picture {
+    max-width: 100%;
+    display: block;
+}
+
+/* Inherit fonts for inputs and buttons */
+input, button,
+textarea, select {
+    font-family: inherit;
+    font-size: inherit;
+}
+
+/* Make sure textareas without a rows attribute are not tiny */
+textarea:not([rows]) {
+    min-height: 10em;
+}
+
+/* Anything that has been anchored to should have extra scroll margin */
+:target {
+    scroll-margin-block: 5ex;
+}
+
+@font-face {
+    font-family: "Embossing Tape 1 (BRK)";
+    src: url('../fonts/embosst1.ttf') format('truetype');
+}
+@font-face {
+    font-family: "Embossing Tape 2 (BRK)";
+    src: url('../fonts/embosst2.ttf') format('truetype');
+}
+@font-face {
+    font-family: "Embossing Tape 3 (BRK)";
+    src: url('../fonts/embosst3.ttf') format('truetype');
+}
+@font-face {
+    font-family: "Pixel Font New York";
+    src: url('../fonts/PixelFontNewYork14.otf') format('opentype');
+    font-weight: 14;
+}
+@font-face {
+    font-family: "Pixel Font New York";
+    src: url('../fonts/PixelFontNewYork18.otf') format('opentype');
+    font-weight: 18;
+}
+@font-face {
+    font-family: "Pixel Font New York";
+    src: url('../fonts/PixelFontNewYork20.otf') format('opentype');
+    font-weight: 20;
+}
+@font-face {
+    font-family: "Pixel Font New York";
+    src: url('../fonts/PixelFontNewYork25.otf') format('opentype');
+    font-weight: 25;
+}
+@font-face {
+    font-family: "Pixel Font New York";
+    src: url('../fonts/PixelFontNewYork31.otf') format('opentype');
+    font-weight: 31;
+}
+@font-face {
+    font-family: "Pixel Font New York";
+    src: url('../fonts/PixelFontNewYork47.otf') format('opentype');
+    font-weight: 47;
+}
+
+@font-face {
+    font-family: "Departure Mono";
+    src: url('../fonts/DepartureMono-Regular.otf') format('opentype');
+}
+
+@font-face {
+    font-family: "WU3 Segments";
+    src: url('../fonts/WU3.Segments.Regular.Mac.v0.13.ttf') format('truetype');
+}
+
+body {
+    background-color: #fbf9e8;
+    background-image: url('../textured-paper.png');
+    background-attachment: fixed;
+    color: #191919;
+    font-family: -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Oxygen-Sans,
+    Ubuntu,
+    Cantarell,
+    "Helvetica Neue",
+    sans-serif;
+}
+
+/*h1 {*/
+/*    font-family: "Pixel Font New York", serif;*/
+/*    font-weight: 47;*/
+/*    font-size: 6rem;*/
+/*}*/
+/*h2 {*/
+/*    font-family: "Pixel Font New York", serif;*/
+/*    font-weight: 31;*/
+/*    font-size: 2.4rem;*/
+/*}*/
+/*h3 {*/
+/*    font-family: "Pixel Font New York", serif;*/
+/*    font-weight: 25;*/
+/*    font-size: 2rem;*/
+/*}*/
+/*h4 {*/
+/*    font-family: "Pixel Font New York", serif;*/
+/*    font-weight: 20;*/
+/*    font-size: 1.5rem;*/
+/*}*/
+
+/*h5 {*/
+/*    font-family: "Pixel Font New York", serif;*/
+/*    font-weight: 18;*/
+/*    font-size: 1.2rem;*/
+/*}*/
+
+/*h6 {*/
+/*    font-family: "Pixel Font New York", serif;*/
+/*    font-weight: 14;*/
+/*    font-size: 1rem;*/
+/*}*/
+
+header {
+    max-width: 1200px;
+    margin-inline: auto;
+}
+
+footer {
+    display: block;
+    text-align: center;
+    min-height: 6rem;
+    max-width: 1200px;
+    margin-inline: auto;
+}
+
+nav.menu {
+    view-transition-name: menu;
+    container-type: inline-size
+}
+
+nav.menu-top {
+    width: 100%;
+    padding-top: 1rem;
+}
+
+nav.menu-bottom {
+    position: fixed;
+    inset-inline: 0;
+    width: min(100%, 1200px);
+    max-width: 1200px;
+    margin-inline: auto;
+    bottom: env(safe-area-inset-bottom, 0);
+    z-index: 1000;
+}
+
+nav.menu-top li a:not(.active) {
+    visibility: hidden;
+}
+
+nav.menu-bottom li .active {
+    visibility: hidden;
+}
+
+/* Move up when any link is hovered (to match your link lift) */
+nav.menu-bottom:has(a:hover)::after {
+    transform: translate(0, -0.2rem);
+    transition: transform 0.2s ease-in-out;
+}
+
+/* Ensure the menu’s group is above the page’s group during transitions */
+::view-transition-group(menu) { z-index: 3; }
+::view-transition-group(page) { z-index: 1; }
+
+/* Keep the menu from animating (optional, keeps it perfectly static) */
+::view-transition-old(menu),
+::view-transition-new(menu) {
+    animation: none;
+}
+
+nav.menu ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+
+nav.menu li {
+    flex: 1 1 0;
+    padding-inline: clamp(0rem, 0.8cqi, 0.2rem);
+}
+
+
+.menu li:nth-child(5n+1) .label { transform: rotate(-0.7deg); }
+.menu li:nth-child(5n+2) .label { transform: rotate(0.6deg); }
+.menu li:nth-child(5n+3) .label { transform: rotate(-0.9deg); }
+.menu li:nth-child(5n+4) .label { transform: rotate(1.1deg); }
+.menu li:nth-child(5n)   .label { transform: rotate(-0.3deg); }
+
+nav.menu a {
+    font-size: clamp(0.80rem, 2.6cqi, 1.10rem);
+    padding-inline: clamp(0.4rem, 2.2cqi, 1rem);
+    padding-block: clamp(0.55rem, 1.5cqi, 1rem);
+    min-block-size: clamp(2.5rem, 6cqi, 3.25rem);
+    position: relative;
+    display: block;
+    width: 100%;
+    text-align: center;
+    background: #63850b;
+    text-decoration: none;
+    border-radius: clamp(0.5rem, 2cqi, 1rem) clamp(0.5rem, 2cqi, 1rem) 0 0;
+    box-shadow: rgba(38, 57, 77, 0.76) 10px 0px 20px;
+}
+
+nav.menu a::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 1rem;
+    transform: translateY(0.4rem);
+    background: #63850b;
+}
+
+nav.menu a:hover {
+    transform: translate(0, -0.2rem);
+    transition: transform 0.2s ease-in-out;
+}
+
+
+.label {
+    display: inline-block;
+    transform-origin: center;
+    padding: 2px 8px;
+    font-family: "Embossing Tape 1 (BRK)", monospace;
+    color: white;
+    background: black;
+}
+
+main {
+    view-transition-name: page;
+    background: white;
+    box-shadow: rgba(38, 57, 77, 0.76) 10px 0px 20px;
+    max-width: 1200px;
+    margin-inline: auto;
+    padding: 1rem;
+    min-height: 75vh;
+    z-index: 100;
+
+}
+
+.home-main {
+    background: unset;
+    box-shadow: unset;
+    text-align: center;
+    padding: 2rem;
+    font-size: 5rem;
+}
+
+.folder {
+    max-width: 1200px;
+    margin-inline: auto;
+    padding: 1rem;
+}
+
+.home-main {
+    font-family: "WU3 Segments", monospace;
+    font-size:100px;
+    padding:20px;
+}
+
+.type {
+    color:#0000;
+    background:
+            conic-gradient(at calc(100% - 1ch) 50%, #000000 90deg,#0000 0) 0 -100%,
+            conic-gradient(at calc(100% - 1ch) 50%, #000000 90deg,#0000 0) 0 0,
+            linear-gradient(-90deg,#0000 1ch, #000000 0) 0 0;
+    background-size:calc(var(--n)*1ch) 200%;
+    -webkit-background-clip:padding-box,text,text;
+    background-clip:padding-box,text,text;
+    background-repeat:no-repeat;
+    animation:
+            b .30s infinite linear,
+            t calc(var(--n)*.30s) steps(var(--n)) forwards;
+}
+
+@keyframes t{
+    from {background-size:0 200%}
+}
+@keyframes b{
+    0% {background-position:0 100%,0 100%,0 0}
+}
