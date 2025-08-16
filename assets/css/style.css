@@ -198,6 +198,7 @@ nav.menu {
 nav.menu-top {
     width: 100%;
     padding-top: 1rem;
+    z-index: 1;
 }
 
 nav.menu-bottom {
@@ -297,6 +298,7 @@ nav.menu a:hover {
 }
 
 main {
+    position: relative;
     view-transition-name: page;
     background: white;
     box-shadow: rgba(38, 57, 77, 0.76) 10px 0px 20px;
