@@ -130,7 +130,7 @@ textarea:not([rows]) {
 
 body {
     background-color: #fbf9e8;
-    background-image: url('../textured-paper.png');
+    /*background-image: url('../textured-paper.png');*/
     background-attachment: fixed;
     color: #191919;
     font-family: -apple-system,
@@ -218,11 +218,6 @@ nav.menu-bottom li .active {
     visibility: hidden;
 }
 
-/* Move up when any link is hovered (to match your link lift) */
-nav.menu-bottom:has(a:hover)::after {
-    transform: translate(0, -0.2rem);
-    transition: transform 0.2s ease-in-out;
-}
 
 /* Ensure the menu’s group is above the page’s group during transitions */
 ::view-transition-group(menu) { z-index: 3; }
@@ -295,6 +290,12 @@ nav.menu a:hover {
     background: black;
 }
 
+.folder {
+    max-width: 1200px;
+    margin-inline: auto;
+    padding: 1rem;
+}
+
 main {
     view-transition-name: page;
     background: white;
@@ -311,21 +312,13 @@ main {
     background: unset;
     box-shadow: unset;
     text-align: center;
-    padding: 2rem;
-    font-size: 5rem;
-}
-
-.folder {
-    max-width: 1200px;
-    margin-inline: auto;
-    padding: 1rem;
-}
-
-.home-main {
+    padding-top: 18vh;
+    font-size: clamp(2rem, 14vw, 7rem);
     font-family: "WU3 Segments", monospace;
-    font-size:100px;
-    padding:20px;
+    overflow: clip;
+    line-height: 1.2;
 }
+
 
 .type {
     color:#0000;
@@ -338,8 +331,8 @@ main {
     background-clip:padding-box,text,text;
     background-repeat:no-repeat;
     animation:
-            b .30s infinite linear,
-            t calc(var(--n)*.30s) steps(var(--n)) forwards;
+            b .25s infinite linear,
+            t calc(var(--n)*.25s) steps(var(--n)) forwards;
 }
 
 @keyframes t{
